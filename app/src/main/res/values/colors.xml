@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#DAB78B</color>
+    <color name="purple_500">#DAB78B</color>
+    <color name="purple_700">#DAB78B</color>
+    <color name="teal_200">@color/background</color>
+    <color name="teal_700">@color/background</color>
+    <color name="black">@color/background</color>
+    <color name="home">@color/background</color>
+    <color name="favorites">@color/background</color>
+    <color name="settings">@color/background</color>
+    <color name="white">@color/background</color>
+
+    <color name="active">#BABABA</color>
+    <color name="inactive">#6AFFFFFF</color>
+    <color name="install">#673AB7</color>
+
+    <color name="background">#BF9E75</color>
+    <color name="image_background">#D9C39A</color>
+    <color name="textColor">#000000</color>
+</resources>

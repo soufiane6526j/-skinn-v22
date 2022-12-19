@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:gravity="center"
+    tools:context=".Activities.SplashActivity">
+
+  <ProgressBar
+      android:id="@+id/prg"
+      android:layout_width="89dp"
+      android:layout_height="70dp" />
+
+  <Button
+      android:id="@+id/str"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/setback"
+      android:text="START"
+      android:textColor="@color/black"
+      android:visibility="gone" />
+
+</RelativeLayout>

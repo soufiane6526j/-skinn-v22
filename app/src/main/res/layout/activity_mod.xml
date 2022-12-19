@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Activities.ActivityMods">
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rw"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/ban2"
+      android:layout_marginBottom="1dp"
+      tools:listitem="@layout/image_item" />
+
+  <LinearLayout
+      android:id="@+id/ban2"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_alignParentBottom="true"
+      android:orientation="horizontal">
+
+    <include layout="@layout/banner_layout" />
+  </LinearLayout>
+  </RelativeLayout>
